@@ -75,6 +75,7 @@ func resourceAwsDmsEndpoint() *schema.Resource {
 					"mongodb",
 					"s3",
 					"azuredb",
+					"db2",
 				}, false),
 			},
 			"extra_connection_attributes": {
